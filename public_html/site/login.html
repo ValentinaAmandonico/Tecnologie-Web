@@ -23,21 +23,52 @@
 
 
 </head>
-<body style="background-color: #E2E2E2;">
-    <div class="container" >
-        <div class="row text-center " style="padding-top:100px;">
-            <div class="col-md-12">
-                <img src="images/logo.png" />
-            </div>
+<body style="background-color: #FFFFFF;">
+
+
+<header>
+<!--==============================
+            Stuck menu
+=================================-->
+  <section id="stuck_container">
+    <div class="container">
+      <div class="row">
+        <div class="grid_12">
+        <h1>
+          <a href="index.html">
+            <img src="images/logo.png" alt="Logo alt">
+          </a>
+        </h1>  
+          <div class="navigation ">
+            <nav>
+              <ul class="sf-menu">
+               <li><a href="index.html">home</a></li>
+               <li><a href="prodotti.html">prodotti</a></li>
+               <li class="current"><a href="aziende.html">aziende</a></li>
+               <li><a href="risultati_ricerca.html">ricerca</a></li>
+               <li><a href="contatti.html">contatti</a></li>
+               <li><a href="login.html">login</a></li>
+             </ul>
+            </nav>        
+            <div class="clear"></div>
+          </div>
         </div>
-         <div class="row " style="text-align:center">
+      </div>
+    </div>
+  </section> 
+</header>        
+
+<!--=====================
+          Content
+======================-->
+<div class="row " style="text-align:center">
                
                 <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
                            
                             <div class="panel-body">
                                 <form role="form">
                                     <hr />
-                                    <h5>Enter Details to Login</h5>
+                                    <h2>Enter Details to Login</h2>
                                        <br />
                                      <div class="form-group input-group">
                                             <span class="input-group-addon"><i class="fa fa-tag"  ></i></span>
@@ -48,10 +79,10 @@
                                             <input type="password" class="form-control"  placeholder="Your Password" />
                                         </div>
                                     <div class="form-group">
-                                            <label class="checkbox-inline">
+                                            <!-- <label class="checkbox-inline">
                                                 <input type="checkbox" /> Remember me
-                                            </label>
-                                            <span class="pull-right">
+                                            </label> -->
+                                            <span >
                                                    <a href="index.html" >Forget password ? </a> 
                                             </span>
                                         </div>
@@ -66,7 +97,26 @@
                 
                 
         </div>
+<!--==============================
+              footer
+=================================-->
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="grid_12">  
+        <div class="socials">
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-google-plus"></a>
+          <a href="#" class="fa fa-pinterest"></a>
+        </div>
+        <div class="copyright"><span class="brand">Bliss </span> &copy; <span id="copyright-year"></span> | <a href="#">Privacy Policy</a> <div>Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com</a></div>
+        </div>
+      </div>
     </div>
-
+  </div> 
+</footer> 
 </body>
 </html>
+
+
