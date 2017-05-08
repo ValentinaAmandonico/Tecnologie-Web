@@ -1,5 +1,4 @@
-Je comprend rien à github
+# Progetto Tecnologie Web
+## Gruppo 8 - Ancona
 
-# Mais je teste des trucs
-
-## On s'amuse bien quand on à le temps ! 
+Questo è il repo per il progetto di tecnologie web, anno 2016-2017.
