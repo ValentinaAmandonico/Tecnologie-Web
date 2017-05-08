@@ -85,7 +85,12 @@ h2 {
     padding-top: 38px;
     margin-bottom: 14px;
 }
-
+h3 {
+    font-size: 28px;
+    line-height: 48px;
+    padding-top: 38px;
+    margin-bottom: 5px;
+}
 .page1 h2 {
     padding-top: 31px;
     margin-bottom: 39px;
