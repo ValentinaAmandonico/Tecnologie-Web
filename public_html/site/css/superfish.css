@@ -99,10 +99,10 @@ nav {
 	left: 0;
 	z-index: 999; 
 	width: 100%;
-	background-color: #343434;
+	background-color: #cccccc;
 	top: 55px;
 	padding-bottom: 1px;
-	background: #1f1714 url(../images/sub_bg.png) 0 0 repeat-x;
+	background: #cccccc url(../images/sub_bg.png) 0 0 repeat-x;
 }
 
 
@@ -115,22 +115,7 @@ nav {
 }
 
 
-.sf-menu li ul li a{
-	position: static;
-	font-size: 11px;
-	line-height: 30px;
-	padding: 5px 20px 3px;
-	display: block;
-	z-index: 999;
-	color: #fff;	
-	font-weight: 300;
-}
 
-
-.sf-menu li li a:hover, 
-.sf-menu li.sfHover li.sfHover>a {  
-	background-color: #120d0c;
-}
 
 /*================================>> 3 Level <<========================================*/
 .sf-menu>li ul li ul{

@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
     font-size: 36px;
     line-height: 48px;
-    padding-top: 38px;
+    padding-top: 0px;
     margin-bottom: 14px;
 }
 h3 {
@@ -965,6 +965,7 @@ header h1 a img {
         padding-bottom: 20px;
     }
 }
+
 
 
 @media only screen and (max-width: 479px) {
