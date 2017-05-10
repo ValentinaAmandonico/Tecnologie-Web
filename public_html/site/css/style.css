@@ -712,7 +712,7 @@ header h1 a img {
 #footer {
     display: block;
     padding: 50px 0 40px;
-    color: #e2e2e2;
+    color: #999999;
     font-size: 14px;
     line-height: 18px;
 }
@@ -738,21 +738,21 @@ header h1 a img {
 }
 
 .socials {
-    float: right;
+    float: left;
     color: #fff;
     margin-top: -4px;
     overflow: hidden;
 }
 
 .socials .fa {
-    background-color: #ddd;
+    background-color: #999999;
     font-size: 25px;
     float: left;
     line-height: 50px;
     width: 50px;
     height: 50px;
     border-radius: 500px;
-    text-align: center;
+    text-align: left;
 }
 
 .socials .fa:hover {
@@ -774,7 +774,8 @@ header h1 a img {
     position: fixed;
     bottom: 40px;
     left: 51%;
-    margin-left: 640px;
+    margin-left: 630px;
+    margin-right: 20px;
     overflow: hidden;
     width: 43px;
     height: 28px;
