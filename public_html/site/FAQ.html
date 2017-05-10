@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Prodotti</title>
+<title>FAQ</title>
 <meta charset="utf-8">
 <meta name = "format-detection" content = "telephone=no" />
 <link rel="icon" href="images/favicon.ico">
@@ -20,8 +20,25 @@
 <script src="js/jquery.ui.totop.js"></script>
 <script src="js/touchTouch.jquery.js"></script>
 
-
-
+<script type="text/javascript">
+            function toggleMenu(currMenu){
+                var thisMenu = document.getElementById(currMenu).style
+                if (thisMenu.display == "block") {
+                    thisMenu.display = "none"
+                }
+                else {
+                    thisMenu.display = "block"
+                }
+            }
+        </script>
+    <style type="text/css">
+            .menu {
+            display: none;
+            margin-left: 10px;
+            
+            } 
+        </style>    
+        
 <!--[if lt IE 9]>
  <div style=' clear: both; text-align:center; position: relative;'>
    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -79,19 +96,36 @@
 ======================-->
 <section class="content gallery pad1">
 
-    <h3>FAQ</h3>
-    <h1>Come posso cambiare i miei dati?</h1>
-    <p>Puoi modificare i tuoi dati personali nella sezione del tuo profilo. Per accederci basta cliccare sul vostro nome in alto a sinistra. Da lì potrete accedere al vostro profilo e modificare i vostri dati personali</p>
-    <h1>Come ottengo i coupon?</h1>
-    <p>Per poter ottenere i coupon è necessario essere un utente registrato. Una volta eseguito l'accesso, basterà accedere alla pagina della promozione desiderata e cliccare sul pulsante "ottieni coupon", dopodichè basterà scaricarlo sul proprio computer.</p>
-    <h1>Come utilizzare il mio coupon?</h1>
-    <p>Una volta scaricato il coupon basterà stamparlo ed esibirlo presso la sede dell'azienda</p>
-    <h1>Quali sono le aziende convenzionate?</h1>
-    <p>Per vedere l'elenco delle aziende convenzionate <a href="aziende.html">clicca qui</a></p>
-    <h1>Newsletter: iscrizioni e modifiche</h1>
+    <h2>FAQ</h2>
     
-    <h1>Quando scade il mio coupon?</h1>
-    <p>Il coupon emesso è valido per tutta la durata della promozione</p>
+    <h5 onclick="toggleMenu('menu1')">Come posso cambiare i miei dati?</h5>
+    <div class="menu" id="menu1">
+        Puoi modificare i tuoi dati personali nella sezione del tuo profilo. Per accederci basta cliccare sul vostro nome in alto a sinistra. Da lì potrete accedere al vostro profilo e modificare i vostri dati personali
+    </div>
+    
+    <h5 onclick="toggleMenu('menu2')">Come ottengo i coupon?</h5>
+    <div class="menu" id="menu2">
+        Per poter ottenere i coupon è necessario essere un utente registrato. Una volta eseguito l'accesso, basterà accedere alla pagina della promozione desiderata e cliccare sul pulsante "ottieni coupon", dopodichè basterà scaricarlo sul proprio computer.
+    </div>
+    
+    <h5 onclick="toggleMenu('menu3')">Come utilizzare il mio coupon?</h5>
+    <div class="menu" id="menu3">
+        Una volta scaricato il coupon basterà stamparlo ed esibirlo presso la sede dell'azienda
+    </div>
+    
+    <h5 onclick="toggleMenu('menu4')">Quali sono le aziende convenzionate?</h5>
+    <div class="menu" id="menu4">
+        Per vedere l'elenco delle aziende convenzionate <a href="aziende.html">clicca qui</a>
+    </div>
+    
+    <h5 onclick="toggleMenu('menu5')">Newsletter: iscrizioni e modifiche</h5>
+    <div class="menu" id="menu5">
+        Per iscriversi alla newsletter basta...
+    </div>    
+    <h5 onclick="toggleMenu('menu6')">Quando scade il mio coupon?</h5>
+    <div class="menu" id="menu6">
+        Il coupon emesso è valido per tutta la durata della promozione
+    </div>
 </section>
 <!--==============================
               footer
